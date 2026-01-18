@@ -3,10 +3,20 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
 
-
+.tema{
+    font-size: large;
+    font-weight: 500;
+    border: solid 1px darkgray;
+    border-radius: 15px;
+    justify-items: center;  
+    text-align: start;
+     
+}
 .header-content{
     display: flex;
     flex-direction: row;
@@ -15,6 +25,7 @@ a { color:blue; text-decoration: none;}
     justify-content: space-between;
     max-width: 1700px;
     max-height: 70px;
+    
     }
 
 .logo-search {
@@ -99,8 +110,8 @@ a:hover{
 }
 h3:hover{
     border-bottom: solid 1px grey;
-    margin: 0;
-    padding: 10px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
     cursor: pointer;
 }
 .main-nav3 {
@@ -111,7 +122,15 @@ h3:hover{
     justify-content:end;
     gap: 10px;
     font-size: 12px;
+    padding-bottom: none;
+    margin-bottom: none;
 
+
+}
+hr{
+    border: none;
+    border-top: solid 1px #747272;
+    margin: 0px 0 0px 0;
 }
 
 details:hover{
@@ -122,7 +141,10 @@ details:hover{
     color: blue;
 }
 
-
+section{
+    justify-content: baseline;
+    text-align: justify;
+}
 
 
 
@@ -153,10 +175,23 @@ details:hover{
     border-top: solid 1px #cdcdcd;
 }
 .anchors {
+    margin-left: 1250px;
+    position:fixed;
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
+    height: 100%;
+}
+
+form.input
+{
+
+
+}
+.content-sidebar-menu{
+    position: fixed;
 }
 .sidebar {
+    
     border-right: solid 1px #cdcdcd;
     font-weight: 400;
     color: rgb(152, 187, 252);
